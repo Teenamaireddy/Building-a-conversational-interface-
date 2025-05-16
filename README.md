@@ -1,4 +1,5 @@
-# Building-a-conversational-interface-// === FILE: backend/index.js === const express = require("express"); const cors = require("cors"); const { Configuration, OpenAIApi } = require("openai"); const { Pool } = require("pg"); require("dotenv").config();
+# Building-a-conversational-interface-/
+=== FILE: backend/index.js === const express = require("express"); const cors = require("cors"); const { Configuration, OpenAIApi } = require("openai"); const { Pool } = require("pg"); require("dotenv").config();
 
 const app = express(); app.use(cors()); app.use(express.json());
 
